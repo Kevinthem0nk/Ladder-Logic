@@ -1,5 +1,4 @@
-# ladder
-Ladder Logic Examples
+# Ladder Logic Examples
 
 
 
