@@ -19,4 +19,4 @@ https://www.plcfiddle.com:/fiddles/6efc6b96-c0f2-42a7-94dc-471fd66eece9
 - The Start Button works to Start and Stop. Single click for function.
 - The Stop works as Stop & Reset. Single click for function.
 
-https://www.plcfiddle.com:/fiddles/b55d6b36-9593-4ac4-9d80-7d1a13d0ebf8
+https://www.plcfiddle.com:/fiddles/d21f4f9d-6bb6-47a2-906d-c1b1ba09ac6f
