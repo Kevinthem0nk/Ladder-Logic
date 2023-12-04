@@ -1,22 +1,32 @@
 # Ladder Logic Examples Using PLC Fiddle
 
-## Simple example of a staged process. 5 stations that rotate with one active station at a time. 
-### I tried to come up with a Semi-Real-World scenario that would need a staged process to create an example program using whatever I currently had access to.  
-https://www.plcfiddle.com:/fiddles/885d3a73-b79d-4105-8701-552b97890c87
+Explore a collection of Ladder Logic programs designed to showcase my proficiency. While these examples are relatively straightforward, with more time and effort, I can certainly produce more advanced and intricate programs. I am also proficient in other common PLC languages like Function Block Diagram and Structured Text, although creating easy examples in these languages is more challenging. Additionally, I am proficient in the Arduino IDE.
 
+***PLC Fiddle is in no way comparable to full PLC Development Studios; there are some limitations.***
 
+## Simple Example of a Staged Process
+An Indexing motor turns a theoretical part into 5 stations that rotate with one active station at a time.
+- Click Start or Stop to begin or end the process, respectively.
+- You can change the timings by modifying:
+  - Index time = IndexTimeTrig.PRE
+  - Simulated operation length = OpTime.PRE
 
-## Occupancy Counter
-### This is from PLC Fiddle's Occupancy Counter Challenge that I created.        
-https://www.plcfiddle.com:/fiddles/6efc6b96-c0f2-42a7-94dc-471fd66eece9
+[Link to the example](https://www.plcfiddle.com:/fiddles/16401d77-b6ef-4840-9e73-e00bb098b8b4)
 
+## Overbuilt Occupancy Counter
+This is from PLC Fiddle's Occupancy Counter Challenge that I created and then added simulation and error-checking examples. Redundancy is achieved by counting in two methods for example purposes.
+- Click Entry Sensor once to add an occupant.
+- Click Exit Sensor once to remove an occupant.
+- Click Simulate once to enable the simulation. This will count up to 'SimTarg' occupants and then back down to 0.
 
+[Link to the example](https://www.plcfiddle.com:/fiddles/b4c40fb9-eee6-4c24-b7e4-11a13a961828)
 
 ## P, PI, or PID Control Loop
-### This is a program to switch between control modes. PLC Fiddle is very limited and cycles slowly so the actual function of the PID is not performing to my liking at least... 
+### This program switches between control modes. PLC Fiddle is very limited and cycles slowly, so the actual function of the PID is not performing to my liking, at least...
 - Set the target value (default 1018) with HMItarget.
 - Set 1 of P_Enbl, PI_Enbl, or PID_Enbl to select which.
+- Enable/Disable the PID with PIDenable.
 - The Start Button works to Start and Stop. Single click for function.
 - The Stop works as Stop & Reset. Single click for function.
 
-https://www.plcfiddle.com:/fiddles/d21f4f9d-6bb6-47a2-906d-c1b1ba09ac6f
+[Link to the example](https://www.plcfiddle.com:/fiddles/6a0cfe6d-2950-4e18-b00f-34793b73b760)
