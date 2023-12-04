@@ -15,6 +15,7 @@ An Indexing motor turns a theoretical part into 5 stations that rotate with one 
 
 
 [Link to the example](https://www.plcfiddle.com:/fiddles/16401d77-b6ef-4840-9e73-e00bb098b8b4)
+
 ![image](https://github.com/Kevinthem0nk/Ladder-Logic/assets/83764173/3e8c7316-dde5-4c75-8fe0-19de272fe26a)
 
 
@@ -26,6 +27,7 @@ This is similar to above but stages 4 Sub-Operations under each Operation using 
 
 
 [Link to the example](https://www.plcfiddle.com:/fiddles/f39047f9-c037-49ec-9c8a-b87027f8b2b3)
+
 ![image](https://github.com/Kevinthem0nk/Ladder-Logic/assets/83764173/a7d13185-17fd-4697-9f10-fc0ebb938b4c)
 
 
@@ -38,6 +40,7 @@ This is from PLC Fiddle's Occupancy Counter Challenge that I created and then ad
 
 
 [Link to the example](https://www.plcfiddle.com:/fiddles/b4c40fb9-eee6-4c24-b7e4-11a13a961828)
+
 ![image](https://github.com/Kevinthem0nk/Ladder-Logic/assets/83764173/ad979e19-a1fa-4c17-a6f1-500f570600f7)
 
 
@@ -52,5 +55,6 @@ This is from PLC Fiddle's Occupancy Counter Challenge that I created and then ad
 - Click the Stop Button to Stop & Reset.
 
 [Link to the example](https://www.plcfiddle.com:/fiddles/6a0cfe6d-2950-4e18-b00f-34793b73b760)
+
 ![image](https://github.com/Kevinthem0nk/Ladder-Logic/assets/83764173/0a01162e-ba87-464d-9f33-8b78ada6a939)
 
