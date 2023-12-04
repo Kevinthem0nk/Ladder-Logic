@@ -14,11 +14,12 @@ An Indexing motor turns a theoretical part into 5 stations that rotate with one 
 [Link to the example](https://www.plcfiddle.com:/fiddles/16401d77-b6ef-4840-9e73-e00bb098b8b4)
 
 ## Another Staged Process With Staged Sub-Operations to Each Operation.
-This is similar to above buto stages 4 Sub-Operations under each Operation.
-- Click the Start Button to Start or Stop the Loop.
+This is similar to above but stages 4 Sub-Operations under each Operation using counters.
+- Sub-operationg timer speed = stTmr.PRE
+- Click the Start Button to Start or Stop the loop.
 - Click the Stop Button to Stop and Reset.
 
-[Link to the example](https://www.plcfiddle.com:/fiddles/0c5aff6e-6d96-4caa-83e0-9984f686ebc9)
+[Link to the example](https://www.plcfiddle.com:/fiddles/f39047f9-c037-49ec-9c8a-b87027f8b2b3)
 
 ## Overbuilt Occupancy Counter
 This is from PLC Fiddle's Occupancy Counter Challenge that I created and then added simulation and error-checking examples. Redundancy is achieved by counting in two methods for example purposes. It loads with the simulations started and will count up to the 
@@ -36,7 +37,7 @@ This is from PLC Fiddle's Occupancy Counter Challenge that I created and then ad
 - Set 1 of P_Enbl, PI_Enbl, or PID_Enbl to select which.
 - Change the PID values with Kp, Ki, and Kd.
 - Enable/Disable the PID with PIDenable.
-- Click the Start Button to Start or Stop.
+- Click the Start Button to Start or Stop the loop.
 - Click the Stop Button to Stop & Reset.
 
 [Link to the example](https://www.plcfiddle.com:/fiddles/6a0cfe6d-2950-4e18-b00f-34793b73b760)
