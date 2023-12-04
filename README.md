@@ -14,10 +14,12 @@ An Indexing motor turns a theoretical part into 5 stations that rotate with one 
 [Link to the example](https://www.plcfiddle.com:/fiddles/16401d77-b6ef-4840-9e73-e00bb098b8b4)
 
 ## Overbuilt Occupancy Counter
-This is from PLC Fiddle's Occupancy Counter Challenge that I created and then added simulation and error-checking examples. Redundancy is achieved by counting in two methods for example purposes.
+This is from PLC Fiddle's Occupancy Counter Challenge that I created and then added simulation and error-checking examples. Redundancy is achieved by counting in two methods for example purposes. It loads with the simulations started and will count up to the 
+- Simulated max occupants = 'SimTarg'.
+- Click Simulate once to stop or start the simulation. 
 - Click Entry Sensor once to add an occupant.
 - Click Exit Sensor once to remove an occupant.
-- Click Simulate once to enable the simulation. This will count up to 'SimTarg' occupants and then back down to 0.
+
 
 [Link to the example](https://www.plcfiddle.com:/fiddles/b4c40fb9-eee6-4c24-b7e4-11a13a961828)
 
@@ -25,8 +27,9 @@ This is from PLC Fiddle's Occupancy Counter Challenge that I created and then ad
 ### This program switches between control modes. PLC Fiddle is very limited and cycles slowly, so the actual function of the PID is not performing to my liking, at least...
 - Set the target value (default 1018) with HMItarget.
 - Set 1 of P_Enbl, PI_Enbl, or PID_Enbl to select which.
+- Change the PID values with Kp, Ki, and Kd.
 - Enable/Disable the PID with PIDenable.
-- The Start Button works to Start and Stop. Single click for function.
-- The Stop works as Stop & Reset. Single click for function.
+- Click the Start Button to Start or Stop.
+- Click the Stop to Stop & Reset.
 
 [Link to the example](https://www.plcfiddle.com:/fiddles/6a0cfe6d-2950-4e18-b00f-34793b73b760)
