@@ -3,7 +3,8 @@
 Explore a collection of Ladder Logic programs designed to showcase my proficiency. While these examples are relatively straightforward, with more time and effort, I can certainly produce more advanced and intricate programs. I am also proficient in other common PLC languages like Function Block Diagram and Structured Text, although creating easy examples in these languages is more challenging. Additionally, I am proficient in the Arduino IDE.
 
 ***PLC Fiddle is in no way comparable to full PLC Development Studios; there are some limitations.***
-*** You may need to Zoom out in your browser for everything to fit.***
+
+***You may need to Zoom out in your browser for everything to fit.***
 
 ## Simple Example of a Staged Process
 An Indexing motor turns a theoretical part into 5 stations that rotate with one active station at a time.
