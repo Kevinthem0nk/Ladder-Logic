@@ -58,3 +58,15 @@ This is from PLC Fiddle's Occupancy Counter Challenge that I created and then ad
 
 ![image](https://github.com/Kevinthem0nk/Ladder-Logic/assets/83764173/0a01162e-ba87-464d-9f33-8b78ada6a939)
 
+
+
+## 5 Function Momentary Button.
+### Single button control for 5 different commands.
+- Clicking "Button" On and Off is a single click and function #1.
+- Double and Triple click make up functions #2 and #3.
+- Click and hold between 2-5 seconds is function #4.
+- A 5 second hold triggers function #5.
+
+[Link to the example](https://www.plcfiddle.com:/fiddles/e7822ae8-de38-464a-ac2f-cab7bd962ead)
+
+![image](https://github.com/Kevinthem0nk/Ladder-Logic/assets/83764173/561ffbed-f59b-4413-b867-66a1e8504d3a)
